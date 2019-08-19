@@ -32,5 +32,6 @@ subtract(1,2);
 //   return num * 3;
 // });
 // console.log(triple);
-const triple = (numbers) => numbers.map((num) => num * 3);
+let numbers = [1, 2, 3, 4];
+const triple = numbers.map((num) => num * 3);
 console.log(triple);
